@@ -1,0 +1,38 @@
+{
+ "positives_raw": {
+  "raw": 11949,
+  "after_filter": 11803,
+  "unique": 10131,
+  "dbaasp_candidates": 14636,
+  "dbaasp_activity_missing": 1,
+  "dbaasp_mic_active": 8782
+ },
+ "pool_secreted_peptides_unique": 1391,
+ "pool_secreted_proteins": 14713,
+ "n_pos_all": 10131,
+ "n_pos_matched_to_peptides": 1279,
+ "n_neg_secreted_peptides": 1279,
+ "n_neg_secreted_fragments": 10130,
+ "secreted_peptides_dropped_for_leading_M": 1129,
+ "n_cdhit_clusters": 2579,
+ "cdhit_identity": 0.4,
+ "largest_cdhit_cluster": 410,
+ "similarity_graph": {
+  "candidate_pairs": 275004,
+  "edges": 92152
+ },
+ "purged_test_rows_per_fold": [
+  2103,
+  2094,
+  2149,
+  2150,
+  2047
+ ],
+ "test_rows_per_fold_after_purge": [
+  2207,
+  2212,
+  2161,
+  2159,
+  2258
+ ]
+}
